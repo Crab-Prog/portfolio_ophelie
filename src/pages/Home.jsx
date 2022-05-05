@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <div className="background-img">
       <Header />
-      <h1 id="section-0">
+      <h1 id="homepage">
         Hi
         <br />
         I'm Ophelie.
       </h1>
-      <a href="#section1">
+      <a href="#introduction">
         <div className="arrow">
           <span className="arrows"></span>
           <span className="arrows"></span>
@@ -26,20 +26,20 @@ const Home = () => {
       <div className="button-space">
         <Button />
       </div>
-      <div id="section1"></div>
+      <div id="introduction"></div>
       <MyProfile />
-      <a href="#section2">
+      <a href="#projects">
         <div className="arrow2">
           <span className="arrows2"></span>
           <span className="arrows2"></span>
         </div>
       </a>
-      <h2 className="title-projectdone" id="section2">
+      <h2 className="title-projectdone" id="projects">
         Réalisations
       </h2>
 
       <ProjectDoneList projectDone={projectDone} />
-      <a href="#section-0">
+      <a href="#homepage">
         <GoUp />
       </a>
       <Footer />

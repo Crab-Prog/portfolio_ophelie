@@ -21,7 +21,7 @@ const NavBar = () => {
       <nav className="navigation">
         <ul className="navigation-bar">
           <li className="home-nav">
-            <a href="#section-0" className="hover-nav">
+            <a href="#homepage" className="hover-nav">
               <img
                 src="https://www.svgrepo.com/show/134940/kyoto-japan-flag-symbol.svg"
                 alt=""
