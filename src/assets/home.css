@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  padding-top: 35vh;
+  margin-left: 20%;
+  padding-bottom: 15vh;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.title-projectdone {
+  padding-top: 7vh;
+  color: white;
+  text-align: center;
+  background-color: #000000b7;
+  font-family: var(--font-family);
+  font-size: 2rem;
+}
+
+.background-img {
+  background: url("../assets/images/background.jpg") center center fixed
+    no-repeat;
+  background-size: cover;
+}
+
+.button-space {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  margin-top: 29vh;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.arrows {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border: none;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  animation: animate 1s linear infinite;
+  animation-delay: 0.4s;
+}
+
+.arrows:nth-child(1) {
+  top: -15px;
+  left: -15px;
+  animation-delay: 0.2s;
+}
+
+.arrow2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.arrows2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border: none;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  animation: animate 1s linear infinite;
+  animation-delay: 0.4s;
+}
+
+.arrows2:nth-child(1) {
+  top: -15px;
+  left: -15px;
+  animation-delay: 0.2s;
+}
+
+@keyframes animate {
+  0% {
+    border-color: #fff;
+  }
+
+  20% {
+    border-color: #fff;
+  }
+
+  20.1%,
+  100% {
+    border-color: #222;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-space {
+    margin-top: 10vh;
+  }
+
+  h1 {
+    font-size: 5rem;
+    padding-top: 25vh;
+    padding-bottom: 4vh;
+  }
+
+  .title-projectdone {
+    margin-top: 23vh;
+    font-size: 3rem;
+    padding-top: 10%;
+  }
+  .arrow2 {
+    margin-top: 10vh;
+  }
+}

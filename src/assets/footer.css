@@ -1,0 +1,7 @@
+.footer-text {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 100;
+}

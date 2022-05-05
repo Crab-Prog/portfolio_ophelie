@@ -1,0 +1,40 @@
+.my-intro {
+  color: #ffffff;
+  background-color: #000000b7;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  align-items: center;
+}
+
+.my-intro p {
+  width: 80%;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.profile-pic {
+  display: none;
+}
+em {
+  color: #ffc3ff;
+  font-style: normal;
+}
+@media screen and (min-width: 768px) {
+  .profile-pic {
+    width: 20%;
+    display: block;
+    margin-left: 5%;
+  }
+  .my-intro {
+    padding-top: 10%;
+  }
+  .my-intro p {
+    width: 50%;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin-right: 5%;
+  }
+}
