@@ -1,8 +1,15 @@
 import projet1 from "../assets/images/projet1.jpg";
 import frontEndChallenge from "../assets/images/front-end-challenge.jpg";
 import codeWars from "../assets/images/codewars.jpg";
+import hackathon from "../assets/images/hackathon-1.jpg";
 
 const projectDone = [
+  {
+    img: hackathon,
+    title: "Hackathon 1 - Team Undefined",
+    desc: "Premier prix grâce à notre jeu de carte.",
+    lien: "https://hvp.dev4.me/",
+  },
   {
     img: projet1,
     title: "WCS - Site fictif",

@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../assets/pdf/CV_coudert-ophelie-stage.pdf";
+import pdf from "../assets/pdf/CV_coudert-ophelie-stage-alternance.pdf";
 import "../assets/button.css";
 
 const Button = () => {
