@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import MyProfile from "../components/MyProfile";
-import ProjectDoneList from "../components/ProjectDoneList";
+import DemoCarouselList from "../components/DemoCarouselList";
 import projectDone from "../services/data";
 import GoUp from "../components/GoUp";
 import React from "react";
@@ -37,8 +37,7 @@ const Home = () => {
       <h2 className="title-projectdone" id="projects">
         Réalisations
       </h2>
-
-      <ProjectDoneList projectDone={projectDone} />
+      <DemoCarouselList projectDone={projectDone} />
       <a href="#homepage">
         <GoUp />
       </a>

@@ -1,5 +1,32 @@
+.carousel-root {
+  width: 80%;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 1rem solid #eab4ea;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 1rem solid #eab4ea;
+}
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+  margin: 0 5px;
+  display: inline-block;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  content: '';
+}
+.carousel-status{
+  display: none;
+}
+.carousel .slide {
+  min-width: 100%;
+  margin: 0;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
 .card {
-  padding-top: 10%;
   background-color: #000000b7;
   font-family: var(--font-family);
   display: flex;
@@ -7,12 +34,12 @@
   align-items: center;
 }
 .cardFull {
-  margin-bottom: 10%;
-  padding: 2%;
+  padding: 5%;
   top: -40px;
   transition: top 0.3s;
   display: flex;
-  width: 50vw;
+  width: 70vw;
+  margin-bottom: 1rem;
   flex-direction: column;
 }
 .card-body {

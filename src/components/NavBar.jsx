@@ -27,7 +27,7 @@ const NavBar = () => {
                 alt=""
                 className="logo"
               />
-              Home
+              <p>Home</p>
             </a>
           </li>
           <div className="icon-section">

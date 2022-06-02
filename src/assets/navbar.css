@@ -5,7 +5,7 @@
   background: rgb(255 255 255 / 49%);
   backdrop-filter: blur(4px);
   z-index: 999;
-  top:-50vh;
+  top:-40vh;
   transition: top 0.7s;
 }
 
@@ -19,21 +19,22 @@
 .icon-section {
   display: flex;
   list-style: none;
+  gap: 20%;
 }
 
 .home-nav {
   margin-right: 43vw;
 }
 .hover-nav{
-  margin: 1vw;
-  padding: 1vw;
-  border-radius: 10px;
+  margin: 0.3rem;
+  padding: 0.1rem;
+  border-radius: 0.3rem;
 }
 .icon {
   width: 35px;
-  margin: 1vw;
-  padding: 1vw;
-  border-radius: 10px;
+  margin: 0.1rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
 
 .hover-nav {
@@ -48,7 +49,7 @@
   transition: 0.7s;
 }
 .logo {
-  width: 25px;
+  width: 1.8rem;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(286deg) brightness(103%) contrast(103%);
 }
 .hover-nav:hover .logo{
