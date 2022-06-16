@@ -4,12 +4,18 @@ import "../assets/button.css";
 
 const Button = () => {
   return (
-    <div>
-      <button>
+    <div className="button-box">
+      <button className="btn-cv-part">
         <a href={pdf} download className="button-hover">
-          Cliquer pour télécharger le CV
+          Télécharger mon CV
         </a>
       </button>
+      <a href="#introduction">
+        <div className="arrow">
+          <span className="arrows"></span>
+          <span className="arrows"></span>
+        </div>
+      </a>
     </div>
   );
 };
