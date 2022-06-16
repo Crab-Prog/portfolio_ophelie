@@ -8,10 +8,16 @@
   margin: 0%;
   padding: 0%;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
-
-h1 {
-  padding-top: 35vh;
+.home-welcome-page{
+  height: 100vh;
+}
+main{
+  background-color: #000000b7;
+}
+#homepage {
+  padding-top: 30vh;
   margin-left: 20%;
   padding-bottom: 15vh;
   font-family: var(--font-family);
@@ -21,10 +27,10 @@ h1 {
 }
 
 .title-projectdone {
-  padding-top: 7vh;
+  /* padding-top: 7vh; */
   color: white;
   text-align: center;
-  background-color: #000000b7;
+  /* background-color: #000000b7; */
   font-family: var(--font-family);
   font-size: 2rem;
 }
@@ -38,14 +44,13 @@ h1 {
 .button-space {
   display: flex;
   justify-content: center;
-  margin-bottom: 15vh;
-  margin-top: 15vh;
+  /* margin-bottom: 15vh; */
+  /* margin-top: 15vh; */
 }
 
 .arrow {
   width: 30px;
   height: 30px;
-  margin-top: 29vh;
   position: absolute;
   transform: rotate(45deg);
 }
@@ -115,20 +120,20 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  .button-space {
+  /* .button-space {
     margin-top: 10vh;
-  }
+  } */
 
-  h1 {
-    font-size: 5rem;
-    padding-top: 25vh;
-    padding-bottom: 4vh;
+  #homepage {
+    font-size: 4rem;
+    /* padding-top: 25vh;
+    padding-bottom: 4vh; */
   }
 
   .title-projectdone {
-    margin-top: 23vh;
+    /* margin-top: 23vh; */
     font-size: 3rem;
-    padding-top: 10%;
+    /* padding-top: 10%; */
   }
   .arrow2 {
     margin-top: 10vh;

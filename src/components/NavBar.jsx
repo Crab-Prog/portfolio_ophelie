@@ -17,42 +17,100 @@ function scrollFunction() {
 
 const NavBar = () => {
   return (
-    <div className="full-navigation">
-      <nav className="navigation">
-        <ul className="navigation-bar">
-          <li className="home-nav">
-            <a href="#homepage" className="hover-nav">
-              <img
-                src="https://www.svgrepo.com/show/134940/kyoto-japan-flag-symbol.svg"
-                alt=""
-                className="logo"
-              />
-              <p>Home</p>
-            </a>
-          </li>
-          <div className="icon-section">
-            <li>
-              <a
-                href="https://github.com/Crab-Prog"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={github} alt="" className="icon hover-nav" />
+    <>
+      <input type="checkbox" id="burger-checkbox" ></input>
+      <label for="burger-checkbox">
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </label>
+      <div class="menu-wrapper">
+        <nav className="navigation">
+          <ul className="navigation-bar">
+            {/* <li className="home-nav"> */}<div className="icon-section">
+              <a href="#homepage" className="hover-nav">
+                {/* <img
+                  src="https://www.svgrepo.com/show/134940/kyoto-japan-flag-symbol.svg"
+                  alt=""
+                  className="logo"
+                /> */}
+                <p>Home</p>
               </a>
-            </li>
+            {/* </li> */}
+            
             <li>
-              <a
-                href="https://www.linkedin.com/in/ophelie-coudert/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={linkedin} alt="" className="icon hover-nav" />
-              </a>
-            </li>
-          </div>
-        </ul>
-      </nav>
-    </div>
+                <a
+                  href="#projects"
+                >
+                  Projets
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                >
+                  Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Crab-Prog"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={github} alt="" className="icon hover-nav" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ophelie-coudert/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linkedin} alt="" className="icon hover-nav" />
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </>
+    //   <div className="full-navigation">
+    //     <nav className="navigation">
+    //       <ul className="navigation-bar">
+    //         <li className="home-nav">
+    //           <a href="#homepage" className="hover-nav">
+    //             <img
+    //               src="https://www.svgrepo.com/show/134940/kyoto-japan-flag-symbol.svg"
+    //               alt=""
+    //               className="logo"
+    //             />
+    //             <p>Home</p>
+    //           </a>
+    //         </li>
+    //         <div className="icon-section">
+    //           <li>
+    //             <a
+    //               href="https://github.com/Crab-Prog"
+    //               target="_blank"
+    //               rel="noreferrer"
+    //             >
+    //               <img src={github} alt="" className="icon hover-nav" />
+    //             </a>
+    //           </li>
+    //           <li>
+    //             <a
+    //               href="https://www.linkedin.com/in/ophelie-coudert/"
+    //               target="_blank"
+    //               rel="noreferrer"
+    //             >
+    //               <img src={linkedin} alt="" className="icon hover-nav" />
+    //             </a>
+    //           </li>
+    //         </div>
+    //       </ul>
+    //     </nav>
+    //   </div>
   );
 };
 
