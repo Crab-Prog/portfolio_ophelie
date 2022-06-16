@@ -17,10 +17,11 @@ const MyProfile = () => {
             Code School en mars 2022.
             <br />
             <em>Orientée front-end</em>, j'aime le visuel et les sites webs
-            interactifs.
+            interactifs.<br />
+            Je suis disposée à m'investir afin d'apprendre diverses choses, autant en front-end qu'en back-end.
             <br />
-            <em>Je recherche un stage et une alternance</em> aux alentours de
-            Clermont-Fd ou à distance.
+            <em>Je recherche une alternance</em> aux alentours de
+            Clermont-Fd ou à distance afin d'obtenir le titre de Concepteur Développeur d'applications.
             <br />
             Issue d'une LEA anglais-japonais, je suis allée à Tokyo pour
             approfondir mes connaissances. J'ai ainsi pu valider mon diplôme (JLPT
