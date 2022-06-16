@@ -11,7 +11,7 @@ const DemoCarousel = (props) => {
             rel="noreferrer"
             className="link-project"
           >
-            <img src={props.img} alt="" className="card-img" />
+            <img src={props.img} alt="" className="card-img" draggable={false}/>
           </a>
         </div>
         <div className="card-body">

@@ -7,7 +7,7 @@ const MyProfile = () => {
     <>
       <div className="my-profile-part">
         <div className="my-intro">
-          <img src={profile} alt="" className="profile-pic" />
+          <img src={profile} alt="" className="profile-pic" draggable={false}/>
           <p>
             Bonjour ! <br />
             Moi c'est Ophélie Coudert, <em>Développeur Web et mobile Junior. </em>
@@ -29,25 +29,25 @@ const MyProfile = () => {
             <em>je suis aussi bénévole</em>.
           </p>
         </div>
-        <section id="skills-sec">
+        <section id="skills-part">
           <hr></hr>
           <h1 id="skills">Soft Skills</h1>
           <div className="soft-box">
 
             <div className="soft-full">
-              <img alt="" title="Optimiste" src="https://www.svgrepo.com/show/99669/idea-hand-drawn-symbol-of-a-side-head-with-a-lightbulb-inside.svg" className="soft-skills" />
+              <img alt="" title="Optimiste" src="https://www.svgrepo.com/show/99669/idea-hand-drawn-symbol-of-a-side-head-with-a-lightbulb-inside.svg" className="soft-skills" draggable={false}/>
               <p>Optimiste</p>
             </div>
             <div className="soft-full">
-              <img alt="" title="Retour constructif" src="https://www.svgrepo.com/show/318189/work-online-message-chat-internet-connection.svg" className="soft-skills" />
+              <img alt="" title="Retour constructif" src="https://www.svgrepo.com/show/318189/work-online-message-chat-internet-connection.svg" className="soft-skills" draggable={false}/>
               <p>Retour constructif</p>
             </div>
             <div className="soft-full">
-              <img alt="" title="creative" src="https://cdn3.iconfinder.com/data/icons/abstract-1/512/idea_A-512.png" className="soft-skills" />
+              <img alt="" title="creative" src="https://cdn3.iconfinder.com/data/icons/abstract-1/512/idea_A-512.png" className="soft-skills" draggable={false}/>
               <p>Créative</p>
             </div>
             <div className="soft-full">
-              <img alt="" title="Travail de groupe" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBw1c6CFScbFoabVXh0sp21mL42QarDcLrkQ&usqp=CAU" className="soft-skills" />
+              <img alt="" title="Travail de groupe" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBw1c6CFScbFoabVXh0sp21mL42QarDcLrkQ&usqp=CAU" className="soft-skills" draggable={false}/>
               <p>Travail de groupe</p>
             </div>
           </div>
@@ -56,23 +56,23 @@ const MyProfile = () => {
           <div className="hard-box">
 
             <div className="hard-full">
-              <img alt="" title="HTML/CSS" src="https://www.svgrepo.com/show/67129/stacked-files.svg" className="hard-skills" />
+              <img alt="" title="HTML/CSS" src="https://www.svgrepo.com/show/67129/stacked-files.svg" className="hard-skills" draggable={false}/>
               <p>HTML/CSS</p>
             </div>
             <div className="hard-full">
-              <img alt="" title="JavaScript" src="https://www.svgrepo.com/show/327372/logo-javascript.svg" className="hard-skills" />
+              <img alt="" title="JavaScript" src="https://www.svgrepo.com/show/327372/logo-javascript.svg" className="hard-skills" draggable={false}/>
               <p>JavaScript</p>
             </div>
             <div className="hard-full">
-              <img alt="" title="React" src="https://www.svgrepo.com/show/327388/logo-react.svg" className="hard-skills" />
+              <img alt="" title="React" src="https://www.svgrepo.com/show/327388/logo-react.svg" className="hard-skills" draggable={false}/>
               <p>React</p>
             </div>
             <div className="hard-full">
-              <img alt="" title="Node js" src="https://www.svgrepo.com/show/327379/logo-nodejs.svg" className="hard-skills" />
+              <img alt="" title="Node js" src="https://www.svgrepo.com/show/327379/logo-nodejs.svg" className="hard-skills" draggable={false}/>
               <p>Node js</p>
             </div>
             <div className="hard-full">
-              <img alt="" title="Github" src="https://www.svgrepo.com/show/327364/logo-github.svg" className="hard-skills" />
+              <img alt="" title="Github" src="https://www.svgrepo.com/show/327364/logo-github.svg" className="hard-skills" draggable={false}/>
               <p>Github</p>
             </div>
           </div>
