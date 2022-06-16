@@ -8,7 +8,8 @@ function DemoCarouselList({ projectDone }) {
     console.log(projectDone);
     return (
         <>
-            <h2 className="title-projectdone" id="projects">
+        <section id="projects">
+            <h2 className="title-projectdone" >
                 Réalisations
             </h2>
             <div className="card">
@@ -18,6 +19,7 @@ function DemoCarouselList({ projectDone }) {
                     ))}
                 </Carousel>
             </div>
+            </section>
         </>
     );
 }

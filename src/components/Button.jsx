@@ -5,7 +5,7 @@ import "../assets/button.css";
 const Button = () => {
   return (
     <div className="button-box">
-      <button>
+      <button className="btn-cv-part">
         <a href={pdf} download className="button-hover">
           Télécharger mon CV
         </a>

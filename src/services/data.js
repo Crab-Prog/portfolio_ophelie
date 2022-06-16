@@ -1,7 +1,8 @@
+import hackathon from "../assets/images/hackathon-1.jpg";
 import projet1 from "../assets/images/projet1.jpg";
+import projet2 from "../assets/images/projet2.jpg";
 import frontEndChallenge from "../assets/images/front-end-challenge.jpg";
 import codeWars from "../assets/images/codewars.jpg";
-import hackathon from "../assets/images/hackathon-1.jpg";
 
 const projectDone = [
   {
@@ -11,8 +12,14 @@ const projectDone = [
     lien: "https://hvp.dev4.me/",
   },
   {
+    img: projet2,
+    title: "Mix & Drink - WCS",
+    desc: "Réalisé avec REACT/EXPRESS et l'API The Cocktail DB ",
+    lien: "https://mix-drink.remote-fr-3.wilders.dev/",
+  },
+  {
     img: projet1,
-    title: "WCS - Site fictif",
+    title: "Outsiders - WCS",
     desc: "Réalisé en HTML/CSS/JS",
     lien: "https://crab-prog.github.io/WCS-Project1-Outsiders/",
   },

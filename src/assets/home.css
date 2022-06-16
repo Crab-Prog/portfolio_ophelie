@@ -27,10 +27,8 @@ main{
 }
 
 .title-projectdone {
-  /* padding-top: 7vh; */
   color: white;
   text-align: center;
-  /* background-color: #000000b7; */
   font-family: var(--font-family);
   font-size: 2rem;
 }
@@ -44,8 +42,6 @@ main{
 .button-space {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 15vh; */
-  /* margin-top: 15vh; */
 }
 
 .arrow {
@@ -120,20 +116,13 @@ main{
 }
 
 @media screen and (min-width: 768px) {
-  /* .button-space {
-    margin-top: 10vh;
-  } */
 
   #homepage {
     font-size: 4rem;
-    /* padding-top: 25vh;
-    padding-bottom: 4vh; */
   }
 
   .title-projectdone {
-    /* margin-top: 23vh; */
     font-size: 3rem;
-    /* padding-top: 10%; */
   }
   .arrow2 {
     margin-top: 10vh;

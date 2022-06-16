@@ -28,7 +28,9 @@ const MyProfile = () => {
             <em>je suis aussi bénévole</em>.
           </p>
         </div>
-        <section><h1 id="skills">Soft Skills</h1>
+        <section id="skills-sec">
+          <hr></hr>
+          <h1 id="skills">Soft Skills</h1>
           <div className="soft-box">
 
             <div className="soft-full">
@@ -73,14 +75,10 @@ const MyProfile = () => {
               <p>Github</p>
             </div>
           </div>
+          <hr></hr>
         </section>
 
-      </div>  <a href="#projects">
-        <div className="arrow2">
-          <span className="arrows2"></span>
-          <span className="arrows2"></span>
-        </div>
-      </a>
+      </div>
     </>
   );
 };

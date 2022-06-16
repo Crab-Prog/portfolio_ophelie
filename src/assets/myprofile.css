@@ -1,13 +1,11 @@
 .my-profile-part{
   height: auto;
+  padding-top: 2rem;
 }
 .my-intro {
   color: #ffffff;
-  /* background-color: #000000b7; */
   display: flex;
   justify-content: space-around;
-  /* padding-top: 15%;
-  padding-bottom: 5%; */
   align-items: center;
 }
 
@@ -30,6 +28,7 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding: 5rem 0;
 }
 hr{
   width: 50%;
@@ -47,11 +46,11 @@ hr{
   flex-direction: row;
   gap: 3rem;
   flex-wrap: wrap;
-    justify-content: center;
+  justify-content: center;
 }
 .soft-skills,
 .hard-skills{
-  width: 6rem;
+  width: 4rem;
   background-color: white;
   padding: 0.5rem;
   border-radius: 50%;
@@ -69,9 +68,6 @@ hr{
     display: block;
     margin-left: 5%;
   }
-  /* .my-intro {
-    padding-top: 10%;
-  } */
   .my-intro p {
     width: 50%;
     font-size: 1.3rem;

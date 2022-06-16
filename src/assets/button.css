@@ -1,4 +1,4 @@
-button {
+.btn-cv-part {
   width: 60vw;
   box-sizing: border-box;
   box-shadow: none;
@@ -31,15 +31,8 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  button {
+  .btn-cv-part {
     width: 40vw;
     font-size: 1.5rem;
   }
-  /* button:hover {
-    background-color: #fccc63;
-    color: black;
-  } */
-  /* .button-space {
-    margin-top: 10vh;
-  } */
 }

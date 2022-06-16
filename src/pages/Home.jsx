@@ -23,10 +23,9 @@ const Home = () => {
           <Button />
         </div>
       </div>
-      <main>
-      <div id="introduction"></div>
+      <main id="introduction">
       <MyProfile />
-
+    {/* <div id="projects"></div> */}
       {/* <h2 className="title-projectdone" id="projects">
         Réalisations
       </h2> */}
