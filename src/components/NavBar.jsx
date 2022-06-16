@@ -22,7 +22,7 @@ const NavBar = () => {
               </a>
               <li>
                 <a
-                  href="#skills-sec"
+                  href="#skills-part"
                   className="hover-nav"
                 >
                   Skills

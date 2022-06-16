@@ -1,12 +1,10 @@
 import React from "react";
-import "../App.css";
 import NavBar from "./NavBar";
 
 const Header = () => {
 
   return (
     <header>
-     
       <NavBar />
     </header>
   );

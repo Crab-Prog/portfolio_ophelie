@@ -18,21 +18,16 @@ const Home = () => {
           <br />
           I'm Ophelie.
         </h1>
-
         <div className="button-space">
           <Button />
         </div>
       </div>
       <main id="introduction">
-      <MyProfile />
-    {/* <div id="projects"></div> */}
-      {/* <h2 className="title-projectdone" id="projects">
-        Réalisations
-      </h2> */}
-      <DemoCarouselList projectDone={projectDone} />
-      <a href="#homepage">
-        <GoUp />
-      </a>
+        <MyProfile />
+        <DemoCarouselList projectDone={projectDone} />
+        <a href="#homepage">
+          <GoUp />
+        </a>
       </main>
       <Footer />
     </div>
