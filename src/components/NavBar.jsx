@@ -18,7 +18,7 @@ const NavBar = () => {
           <ul className="navigation-bar">
             <div className="icon-section">
               <a href="#homepage" className="hover-nav">
-                <p>Home</p>
+                Home
               </a>
               <li>
                 <a
